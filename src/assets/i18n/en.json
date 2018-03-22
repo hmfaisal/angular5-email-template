@@ -1,0 +1,38 @@
+{
+    "HOME": "Home",
+    "MAILS":"Mails",
+    "INBOX":"Inbox",
+    "YES":"Yes",
+    "NO":"No",
+    "MESSAGE_DETAIL":"Message Detail",
+
+    "ID":"Id",
+    "NAME":"Name",
+    "ARTICLE_ID":"Article Id",
+    "STATE":"State",
+    "DESCRIPTION":"Description",
+
+    "SAVE_BUTTON":"Save",
+    "SELECT_BUTTON":"Select",
+    "SUBMIT_BUTTON":"Submit",
+    "BACK_BUTTON":"Back",
+    "NEXT_BUTTON":"Next",
+    "CLOSE_BUTTON":"Close",
+
+    "ADD_SUCCESSFUL":"Added Successfully",
+    "EDIT_SUCCESSFUL":"Updated Successfully",
+    "DELETE_SUCCESSFUL":"Removed Successfully",
+    "CANCEL_SUCCESSFUL":"Cancel Successfully",
+
+    "500": "500",
+    "500_TITLE": "We have an internal server error!",
+    "500_SUBTITLE": "Sorry, but the page you were trying to view does not exist",
+    "404_TITLE": "Page not found!",
+    "404_SUBTITLE": "Sorry, but the page you were trying to view does not exist",
+    "WRONG_ERROR":"Something went wrong.",
+
+    "SIMILAR_MATERIALS":"Similar materials you may be interested on",
+
+    "RESULT_NOT_FOUND":"No Result Found"
+
+}

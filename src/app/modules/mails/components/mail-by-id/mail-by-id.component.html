@@ -1,0 +1,16 @@
+<div fxLayout="column" fxLayoutWrap="wrap" class="pa-1">
+  <div class="w-500 text-xl pb-xs">
+      {{ 'MESSAGE_DETAIL' | translate }}
+  </div>
+  <div class="">
+    <a (click)="onBack()">
+        {{'BACK_BUTTON' | translate }}
+    </a>
+  </div>
+</div>
+<mat-card *ngIf="mail" class="" fxLayout="column" fxLayoutWrap="wrap">
+  <app-mails-single class="message-list" [singleMail]="mail"></app-mails-single>
+  <div fxLayout="row" fxLayoutWrap="wrap" class="pa-1">
+    <span [innerHTML]="mail.text | nl2br"></span>
+  </div>
+</mat-card>

@@ -1,0 +1,71 @@
+/* $typography
+ ------------------------------------------*/
+ a {
+    text-decoration: none;
+    color:#000000;
+    @include hover-focus {
+      cursor: pointer;
+      text-decoration: none;
+      outline: 0;
+    }
+  }
+  
+  button {
+    outline: 0;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid mat-color($foreground, divider);
+  }
+  
+  strong, b {
+      font-weight: 700;
+  }
+  
+  .strikethrough {
+    text-decoration: line-through;
+  }
+
+  .mat-typography h1 {
+    font-family:'Montserrat', sans-serif!important;
+  }
+  .mat-typography h2 {
+    font-family:'Montserrat', sans-serif!important;
+  }
+  .mat-typography h3 {
+    font-family:'Montserrat', sans-serif!important;
+  }
+  .mat-typography h4 {
+    font-family:'Montserrat', sans-serif!important;
+  }
+  .mat-typography h5 {
+    font-family:'Montserrat', sans-serif!important;
+  }
+  .mat-typography h6 {
+    font-family:'Montserrat', sans-serif!important;
+  }
+  
+  p{
+    font-family:'Montserrat', sans-serif!important;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .title{
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .label{
+    font-weight:500;
+  }
+  

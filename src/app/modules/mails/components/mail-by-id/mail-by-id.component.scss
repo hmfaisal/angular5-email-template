@@ -1,0 +1,14 @@
+@import "~assets/styles/scss/material-variable";
+@import "~assets/styles/scss/mixins";
+@import "~assets/styles/scss/app-variable";
+@include material-variables($theme);
+
+.message-list{
+    @include hover-focus {
+      background: #ffffff!important;
+    }
+}
+a{
+  color:#64B5F6;
+  text-decoration: underline solid #64B5F6;
+}

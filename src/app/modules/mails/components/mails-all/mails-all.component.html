@@ -1,0 +1,6 @@
+<div fxLayout="row" fxLayoutWrap="wrap" class="pa-1 w-500 text-xl">
+    {{ 'INBOX' | translate }}
+</div>
+<mat-card appScroll (scrolled)="onScroll($event)" *ngIf="data" class="" fxLayout="column" fxLayoutWrap="wrap">
+    <app-mails-single *ngFor="let mail of data | sortdata: '-date'" (click)="onSelect(mail.id)" class="message-list" [singleMail]="mail"></app-mails-single>
+</mat-card>

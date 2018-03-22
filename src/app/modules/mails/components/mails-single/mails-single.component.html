@@ -1,0 +1,19 @@
+<div *ngIf="singleMail" fxLayout="row" fxLayoutWrap="wrap" class="">
+  <div fxFlex.gt-sm="5%" fxFlex="10%" class="">
+    <div class="message-icon">
+      {{singleMail.from | slice:0:1 | uppercase}}
+    </div>
+  </div>
+  <div fxFlex.gt-sm="95%" fxFlex="90%" fxLayout.gt-sm="row" fxLayout="column" >
+    <div fxFlex.gt-sm="25%" fxFlex="100%" fxLayoutAlign="start center" >
+        <span class="pl-xs text-fit text-md">{{singleMail.from}}</span>
+    </div>
+    <div fxFlex.gt-sm="50%" fxFlex="100%" fxLayoutAlign="start center" >
+        <span class="pl-xs text-fit w-500">{{singleMail.subject}}</span>
+    </div>
+    <div fxFlex.gt-sm></div>
+    <div fxLayoutAlign.gt-sm="end center" fxLayoutAlign="start center" >
+      <span class="pl-xs text-fit mat-text-muted text-md">{{ singleMail.date | date: 'short' }}</span>
+    </div>
+  </div>
+</div>
