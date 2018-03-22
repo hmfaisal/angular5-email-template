@@ -1,5 +1,5 @@
 # Demo Link
-This demo solution is running on [DEMO](https://hmfaisal.github.io/message/)
+This demo solution is running on [DEMO](https://hmfaisal.github.io/angular5-email-template/)
 
 # About
 
@@ -14,7 +14,7 @@ This demo solution is running on [DEMO](https://hmfaisal.github.io/message/)
 3. run **ng serve** to run in localhost
 4. Navigate to http://localhost:4200/
 
-#Technology Used
+# Technology Used
 1. Angular 5
 2. Angular CLI
 3. Angular Material
