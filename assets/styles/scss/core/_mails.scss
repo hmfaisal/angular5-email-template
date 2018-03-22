@@ -1,0 +1,33 @@
+.message-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: mat-color($accent);
+    text-align: center;
+    vertical-align: middle;
+    line-height:36px;
+    color:#ffffff;
+    font-weight: 500;
+    font-size:1.1rem;
+  }
+
+  .message-list{
+      border-bottom: 1px solid #d8d8d8;
+      padding: 16px;
+      cursor: pointer;
+      @include hover-focus {
+        background: #e5e5e5;
+      }
+  }
+
+  .message-list:last-child { border-bottom: none; }
+
+  .text-fit {
+    width: 100%;
+    display:block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+  }
+  
