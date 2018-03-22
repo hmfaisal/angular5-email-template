@@ -1,6 +1,8 @@
 {
     "HOME": "Zuhause",
-    "MAILS":"Mails",
+    "MAILS":"Nachricht",
+    "INBOX":"Posteingang",
+    "MESSAGE_DETAIL":"Nachrichtendetail",
     "YES":"Ja",
     "NO":"Nein",
 
